@@ -136,7 +136,7 @@ body {
 
 .right-content {
   display: grid;
-  grid-template-rows: 40px auto 40px auto;
+  grid-template-rows: 40px auto 50px auto;
   padding: 10px;
 }
 
@@ -161,6 +161,7 @@ body {
 
 #trending-title {
   grid-row: 3 / 4;
+  margin-top: 10px;
 }
 
 .trending {
