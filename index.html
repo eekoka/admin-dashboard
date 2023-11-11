@@ -12,61 +12,202 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="head-upper">header upper
-
+            <div class="head-upper">
+                <img class="header-icon" src="./icons/search.svg" alt="search-icon">
+                <form>
+                    <input type="text" id="search-box" name="search-box">
+                </form>
+                <img class="header-icon" src="./icons/bell.svg" alt="bell-icon">
+                <img class="header-avar" src="./icons/avatar1.svg" alt="avar-icon">
+                <span>Morgan Oakley</span>
             </div>
-            <div class="head-lower">header lower
-
+            <div class="head-lower">
+                <img class="header-avar2" src="./icons/avatar1.svg" alt="avar-icon2">
+                <div id="name-greet">
+                    <span id="greeting">Hi there,</span><br>
+                    <span id="name-and-tag">Morgan Oakley (@moakley)</span>
+                </div>
+                <div id="head-buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
             </div>
         </div>
         <div class="sidebar">
-            <div id="logo">logo
-
+            <div id="logo">
+                <img src="./icons/logo.svg" alt="logo">
+                <div id="logo-text">Dashboard</div>
             </div>
-            <div class="sb-upper">sidebar upper
-
+            <div class="sb-upper sb-upper-lower">
+                <a href="#">
+                    <img class="iconimg" src="./icons/home.svg" alt="home-icon">
+                    <div class="icontxt">Home</div>
+                </a>
+                <a href="#">
+                    <img class="iconimg" src="./icons/profile.svg" alt="profile-icon">
+                    <div class="icontxt">Profile</div>
+                </a>
+                <a href="#">
+                    <img class="iconimg" src="./icons/messages.svg" alt="messages-icon">
+                    <div class="icontxt">Messages</div>
+                </a>
+                <a href="#">
+                    <img class="iconimg" src="./icons/history.svg" alt="history-icon">
+                    <div class="icontxt">History</div>
+                </a>
+                <a href="#">
+                    <img class="iconimg" src="./icons/tasks.svg" alt="tasks-icon">
+                    <div class="icontxt">Tasks</div>
+                </a>
+                <a href="#">
+                    <img class="iconimg" src="./icons/communities.svg" alt="communities-icon">
+                    <div class="icontxt">Communities</div>
+                </a>
             </div>
-            <div class="sb-lower">sidebar lower
-
+            <div class="sb-lower sb-upper-lower">
+                <a href="#">
+                    <img class="iconimg" src="./icons/settings.svg" alt="settings-icon">
+                    <div class="icontxt">Settings</div>
+                </a>
+                <a href="#">
+                    <img class="iconimg" src="./icons/support.svg" alt="support-icon">
+                    <div class="icontxt">Support</div>
+                </a>
+                <a href="#">
+                    <img class="iconimg" src="./icons/privacy.svg" alt="privacy-icon">
+                    <div class="icontxt">Privacy</div>
+                </a>
             </div>
         </div>
         <div class="content">
-            <div class="projects">
-                <div class="card">
-                    <p class="title">Super Cool Project</p>
-                    <p class="text">Magna senectus porttitor ligula tortor per pharetra ullamcorper hymenaeos egestas Amet vulputate proin ornare mattis dapibus fusce sit duis fames. </p>
-                </div>
-                <div class="card">
-                    <p class="title">Another cool Project</p>
-                    <p class="text">Pellentesque tempor vehicula potenti sodales nulla conubia odio lorem posuere vel id dictumst elementum rhoncus. Ante nullam vulputate hymenaeos fames. </p>
-                </div>
-                <div class="card">
-                    <p class="title">Really Great Project</p>
-                    <p class="text">Mollis Praesent sollicitudin cras convallis ut eleifend. Semper id erat dictumst vivamus metus aenean metus vulputate nisl inceptos facilisis sollicitudin mi. Dictumst tortor nullam suscipit.</p>
-                </div>
-                <div class="card">
-                    <p class="title">Ad Blocker</p>
-                    <p class="text">Sed ultrices nibh montes nam massa convallis tortor. Justo. Egestas aliquet eget ridiculus pretium orci duis tempor cras lobortis lectus cursus placerat ipsum, malesuada laoreet at quis. Habitasse conubia sociis.</p>
-                </div>
-                <div class="card">
-                    <p class="title">Super App</p>
-                    <p class="text">Ultrices hendrerit dui lorem curae; enim nec dolor dis felis cubilia gravida tincidunt cubilia sapien, consectetuer maecenas, purus aptent netus penatibus.</p>
-                </div>
-                <div class="card">
-                    <p class="title">Money Maker App</p>
-                    <p class="text">Praesent dapibus sollicitudin ut feugiat sed, aptent ornare risus. Dictumst augue Eu. Augue rhoncus. Leo ut fringilla. Mus Scelerisque a. A egestas tempus facilisi.</p>
-                </div>
-                <div class="card">
-                    <p class="title">Good Project</p>
-                    <p class="text">Congue convallis. Habitant penatibus ante, libero in pharetra nibh augue tortor ac tempus curae; pellentesque tortor leo congue. Urna feugiat laoreet natoque faucibus congue. Dapibus penatibus.</p>
-                </div>
-                <div class="card">
-                    <p class="title">Really Cool App</p>
-                    <p class="text">Gravida risus senectus auctor laoreet. Molestie facilisi. Hendrerit mauris semper conubia sociis mattis. Faucibus mollis lacinia, lorem ultrices sed lorem dolor nisl. Consequat in. Facilisi hendrerit. Augue nisi malesuada fusce curae.</p>
+            <div class="left-content">
+                <div class="l2title" id="project-title">My Projects</div>
+                <div class="projects">
+                    <div class="card">
+                        <p class="title">Super Cool Project</p>
+                        <p class="text">Magna senectus porttitor ligula tortor per pharetra ullamcorper hymenaeos egestas Amet vulputate proin ornare mattis dapibus fusce sit duis fames. </p>
+                        <div class="card-bottom">
+                            <img class="card-img" src="./icons/star.svg" alt="star-icon">
+                            <img class="card-img" src="./icons/eye.svg" alt="eye-icon">
+                            <img class="card-img" src="./icons/share.svg" alt="share-icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="title">Another cool Project</p>
+                        <p class="text">Pellentesque tempor vehicula potenti sodales nulla conubia odio lorem posuere vel id dictumst elementum rhoncus. Ante nullam vulputate hymenaeos fames. </p>
+                        <div class="card-bottom">
+                            <img class="card-img" src="./icons/star.svg" alt="star-icon">
+                            <img class="card-img" src="./icons/eye.svg" alt="eye-icon">
+                            <img class="card-img" src="./icons/share.svg" alt="share-icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="title">Really Great Project</p>
+                        <p class="text">Mollis Praesent sollicitudin cras convallis ut eleifend. Semper id erat dictumst vivamus metus aenean metus vulputate nisl inceptos facilisis sollicitudin mi. Dictumst tortor nullam suscipit.</p>
+                        <div class="card-bottom">
+                            <img class="card-img" src="./icons/star.svg" alt="star-icon">
+                            <img class="card-img" src="./icons/eye.svg" alt="eye-icon">
+                            <img class="card-img" src="./icons/share.svg" alt="share-icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="title">Ad Blocker</p>
+                        <p class="text">Sed ultrices nibh montes nam massa convallis tortor. Justo. Egestas aliquet eget ridiculus pretium orci duis tempor cras lobortis lectus cursus placerat ipsum, malesuada laoreet at quis. Habitasse conubia sociis.</p>
+                        <div class="card-bottom">
+                            <img class="card-img" src="./icons/star.svg" alt="star-icon">
+                            <img class="card-img" src="./icons/eye.svg" alt="eye-icon">
+                            <img class="card-img" src="./icons/share.svg" alt="share-icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="title">Super App</p>
+                        <p class="text">Ultrices hendrerit dui lorem curae; enim nec dolor dis felis cubilia gravida tincidunt cubilia sapien, consectetuer maecenas, purus aptent netus penatibus.</p>
+                        <div class="card-bottom">
+                            <img class="card-img" src="./icons/star.svg" alt="star-icon">
+                            <img class="card-img" src="./icons/eye.svg" alt="eye-icon">
+                            <img class="card-img" src="./icons/share.svg" alt="share-icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="title">Money Maker App</p>
+                        <p class="text">Praesent dapibus sollicitudin ut feugiat sed, aptent ornare risus. Dictumst augue Eu. Augue rhoncus. Leo ut fringilla. Mus Scelerisque a. A egestas tempus facilisi.</p>
+                        <div class="card-bottom">
+                            <img class="card-img" src="./icons/star.svg" alt="star-icon">
+                            <img class="card-img" src="./icons/eye.svg" alt="eye-icon">
+                            <img class="card-img" src="./icons/share.svg" alt="share-icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="title">Good Project</p>
+                        <p class="text">Congue convallis. Habitant penatibus ante, libero in pharetra nibh augue tortor ac tempus curae; pellentesque tortor leo congue. Urna feugiat laoreet natoque faucibus congue. Dapibus penatibus.</p>
+                        <div class="card-bottom">
+                            <img class="card-img" src="./icons/star.svg" alt="star-icon">
+                            <img class="card-img" src="./icons/eye.svg" alt="eye-icon">
+                            <img class="card-img" src="./icons/share.svg" alt="share-icon">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <p class="title">Really Cool App</p>
+                        <p class="text">Gravida risus senectus auctor laoreet. Molestie facilisi. Hendrerit mauris semper conubia sociis mattis. Faucibus mollis lacinia, lorem ultrices sed lorem dolor nisl. Consequat in. Facilisi hendrerit. Augue nisi malesuada fusce curae.</p>
+                        <div class="card-bottom">
+                            <img class="card-img" src="./icons/star.svg" alt="star-icon">
+                            <img class="card-img" src="./icons/eye.svg" alt="eye-icon">
+                            <img class="card-img" src="./icons/share.svg" alt="share-icon">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="announce">announcement</div>
-            <div class="trending">trending</div>
+            <div class="right-content">
+                <div class="l2title" id="announce-title">Anouncements</div>
+                <div class="announce">
+                    <div class="anon-card">
+                        <p class="anon-title">Site Maintenance</p>
+                        <p class="anon-text">Habitant penatibus ante, libero Habitant penatibus ante, libero laoreet.</p>
+                    </div>
+                    <hr class="divider">
+                    <div class="anon-card">
+                        <p class="anon-title">Community Share Day</p>
+                        <p class="anon-text">feugiat sed, aptent ornare risus, libero laoreet. Molestie facilisi.</p>
+                    </div>
+                    <hr class="divider">
+                    <div class="anon-card">
+                        <p class="anon-title">Updated Privacy Policy</p>
+                        <p class="anon-text"> Molestie facilisi. risus, libero laoreet.  Molestie facilisi risus ante.</p>
+                    </div>
+                </div>
+                <div class="l2title" id="trending-title">Trending</div>
+                <div class="trending">
+                    <a href="#">
+                        <img class="trend-img" src="./icons/avatar2.svg" alt="avatar-image2">
+                        <div class="trend-contents">
+                            <p class="trend-title">@tegan</p>
+                            <p class="trend-text">World Peace Builder</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img class="trend-img" src="./icons/avatar3.svg" alt="avatar-image3">
+                        <div class="trend-contents">
+                            <p class="trend-title">@morgan</p>
+                            <p class="trend-text">Super Cool Project</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img class="trend-img" src="./icons/avatar4.svg" alt="avatar-image4">
+                        <div class="trend-contents">
+                            <p class="trend-title">@kendall</p>
+                            <p class="trend-text">Life Changing App</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <img class="trend-img" src="./icons/avatar5.svg" alt="avatar-image5">
+                        <div class="trend-contents">
+                            <p class="trend-title">@alex</p>
+                            <p class="trend-text">No Traffic Maker</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
